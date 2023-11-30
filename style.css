@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  font-family: "Red Hat Display", "sans-serif";
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; */
+}
+.container {
+  max-width: 450px;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px hsl(224, 23%, 55%);
+}
+.image img {
+  border-radius: 20px 20px 0px 0px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  padding: 0px 3px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price-plan h2 {
+  margin-bottom: -10px;
+}
+
+.price-plan {
+  margin-left: -100px;
+}
+.price img {
+  margin-left: 20px;
+}
+.price a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+.payment button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  font-size: large;
+  padding: 15px 120px;
+  width: 90%;
+  border-radius: 10px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 10px 30px hsl(224, 23%, 55%);
+}
+
+.cancle-order {
+  padding: 50px;
+}
+.cancle-order a {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+}
+.order-summary {
+  width: 70%;
+  margin: auto;
+}
+.order-summary p {
+  color: hsl(224, 23%, 55%);
+}
+.price-plan p {
+  color: hsl(224, 23%, 55%);
+}
+.attribution {
+  margin-top: 20px;
+}
