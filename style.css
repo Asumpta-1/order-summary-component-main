@@ -49,9 +49,11 @@ body {
 }
 .price a {
   margin-right: 20px;
-  text-decoration: none;
   font-weight: bold;
   color: hsl(245, 75%, 52%);
+}
+.price a:hover {
+  text-decoration: none;
 }
 .payment button {
   background-color: hsl(245, 75%, 52%);
@@ -65,6 +67,10 @@ body {
   margin-right: auto;
   box-shadow: 0px 10px 30px hsl(224, 23%, 55%);
 }
+.payment button:hover {
+  cursor: pointer;
+  filter: hue-rotate(10deg) opacity(0.9);
+}
 
 .cancle-order {
   padding: 50px;
@@ -72,6 +78,9 @@ body {
 .cancle-order a {
   text-decoration: none;
   font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+.cancle-order a:hover {
   color: hsl(223, 47%, 23%);
 }
 .order-summary {
