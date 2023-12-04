@@ -2,6 +2,11 @@
 
 body {
   font-family: "Red Hat Display", "sans-serif";
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  /* max-width: 1440px; */
+  /* max-height: 1056px; */
   /* display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +19,7 @@ body {
   margin: auto;
   margin-top: 40px;
   border-radius: 20px;
+  background-color: white;
   box-shadow: 0px 10px 30px hsl(224, 23%, 55%);
 }
 .image img {
