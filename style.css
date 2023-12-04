@@ -87,3 +87,13 @@ body {
 .attribution {
   margin-top: 20px;
 }
+@media screen and (max-width: 375px) {
+  body {
+    .container {
+      width: 375px;
+      .image img {
+        width: 375px;
+      }
+    }
+  }
+}
