@@ -59,7 +59,7 @@ body {
 .payment button {
   background-color: hsl(245, 75%, 52%);
   color: hsl(225, 100%, 94%);
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
   padding: 15px 120px;
   width: 90%;
